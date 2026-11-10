@@ -1,0 +1,366 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 88%;
+    }
+
+    nav .container {
+        width: 88%;
+    }
+
+    nav .container .links ul {
+        gap: 12px;
+    }
+
+    nav .container .links ul a {
+        font-size: 14px;
+    }
+
+    .hero .container .left-side .main-heading .text {
+        font-size: 55px;
+    }
+
+    .hero .container .left-side .description-box {
+        width: 100%;
+    }
+
+    .hero .container .right-side .image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+
+    nav {
+        position: static;
+        width: 100%;
+    }
+
+    nav .container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        text-align: center;
+        padding: 20px 15px;
+        margin-top: 15px;
+    }
+
+    nav .container .links ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    nav .container .links ul a {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    nav .container .button {
+        margin-top: 5px;
+    }
+
+    .hero {
+        padding: 30px 0;
+        margin-top: 10px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        gap: 40px;
+    }
+
+    .hero .container .left-side {
+        width: 100%;
+    }
+
+    .hero .container .left-side .main-heading .text {
+        font-size: 48px;
+    }
+
+    .hero .container .left-side .description-box {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .hero .container .right-side {
+        width: 100%;
+        max-width: 500px;
+        margin-top: 10px;
+        transform: rotate(2deg);
+    }
+
+    .hero .container .right-side .image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .latest-section .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .latest-section .container .left-side,
+    .latest-section .container .right-side {
+        width: 100%;
+    }
+
+    .meet .container .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .meet .container .card-item {
+        width: 45%;
+        min-width: 260px;
+    }
+
+    .rebellion-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .rebellion .left-col,
+    .rebellion .right-col {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .rebellion .left-col h3 {
+        font-size: 28px;
+    }
+
+    footer .footer-top {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    footer .container .ux-rev,
+    footer .container .categories,
+    footer .container .newsletters {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    footer .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    footer .footer-bottom .footer-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 92%;
+    }
+
+    nav .container {
+        width: 92%;
+        gap: 15px;
+        padding: 18px 12px;
+    }
+
+    nav .container h1 {
+        font-size: 24px;
+    }
+
+    nav .container .links ul a {
+        font-size: 14px;
+    }
+
+    .hero .container .left-side .main-heading .text {
+        font-size: 38px;
+    }
+
+    .hero .container .right-side {
+        transform: none;
+    }
+
+    .hero .container .right-side .feature {
+        right: 0;
+    }
+
+    .latest-section .card-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .latest-section .card-item .image {
+        width: 100%;
+        height: 220px;
+    }
+
+    .latest-section .head-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .latest-section .btn-load-more {
+        width: 100%;
+    }
+
+    .meet .container .card-item {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .rebellion .head-title h2 {
+        font-size: 32px;
+    }
+
+    .testimonials-wrapper {
+        padding: 22px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+
+    nav .container {
+        width: 95%;
+        padding: 16px 10px;
+        gap: 14px;
+        border-radius: 12px;
+    }
+
+    nav .container h1 {
+        font-size: 20px;
+    }
+
+    nav .container .links ul {
+        gap: 10px;
+    }
+
+    nav .container .links ul a {
+        font-size: 13.5px;
+    }
+
+    nav .container .button button {
+        padding: 8px 18px;
+        font-size: 13px;
+    }
+
+    .hero {
+        padding: 20px 0;
+    }
+
+    .hero .container .left-side .badge-trending {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .hero .container .left-side .main-heading .text {
+        font-size: 28px;
+    }
+
+    .hero .container .left-side .description-box {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .hero .container .left-side .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero .container .left-side .btn-primary,
+    .hero .container .left-side .btn-secondary {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .hero .container .right-side {
+        max-width: 100%;
+    }
+
+    .latest-section {
+        padding: 40px 0;
+    }
+
+    .latest-section .head-title h2 {
+        font-size: 24px;
+    }
+
+    .latest-section .card-item {
+        padding: 15px;
+    }
+
+    .latest-section .card-item .image {
+        height: 180px;
+    }
+
+    .latest-section .card-item .card-content h3 {
+        font-size: 18px;
+    }
+
+    .latest-section .card-icons {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .meet {
+        padding: 40px 0 20px 0;
+    }
+
+    .meet .container .head-title h2 {
+        font-size: 28px;
+    }
+
+    .meet .container .card-item {
+        padding: 20px 15px;
+    }
+
+    .rebellion {
+        padding: 40px 0;
+    }
+
+    .rebellion .head-title h2 {
+        font-size: 26px;
+    }
+
+    .rebellion .left-col h3 {
+        font-size: 22px;
+    }
+
+    .rebellion .btn-join {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .testimonials-wrapper {
+        padding: 16px;
+    }
+
+    .testimonial-card {
+        padding: 15px 12px;
+    }
+
+    footer {
+        padding: 40px 0 25px 0;
+    }
+
+    footer .footer-bottom .footer-links {
+        gap: 15px;
+        flex-direction: column;
+    }
+}
