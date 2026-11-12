@@ -328,7 +328,7 @@ nav .container .button button:hover {
 }
 
 .tag-yellow {
-    background-color: #FDE047;
+    background-color: #ffde38;
 }
 
 .tag-green {
@@ -392,7 +392,7 @@ nav .container .button button:hover {
 }
 
 .latest-section .btn-load-more:hover {
-    transform: translate(-2px, -2px);
+    transform: translate(-4px, -4px);
     box-shadow: 6px 6px 0 0 #000000;
 }
 
